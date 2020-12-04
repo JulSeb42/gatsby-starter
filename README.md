@@ -1,8 +1,19 @@
-# Gatsby starter
+# gatsby-starter-empty
 
 ## A totally blank site for Gatsby
 
 Here's an empty starter for Gatsby websites, with MDX files.
+
+## How to install
+
+Open your terminal and run:
+
+```
+gatsby new your-site-title https://github.com/JulSeb42/gatsby-starter.git
+cd your-site-title
+gatsby-develop
+```
+
 
 ## Plugins included
 
