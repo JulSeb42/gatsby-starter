@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* SCSS Document */
+
+/*=============================================== Imports =============================================== */
+@import "mixins";
+@import "variables";
+
+/*=============================================== General =============================================== */
+
+* {
+    @include box-sizing(border-box);
+    outline: none;
+}
+
+html,
+body {
+    @include paMar();
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
